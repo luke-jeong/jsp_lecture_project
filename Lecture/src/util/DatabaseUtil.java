@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 public class DatabaseUtil {
 	public static Connection getConnection() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/tutorial";			
+			String dbURL = "jdbc:mysql://localhost:3306/Lecture";			
 			String dbID = "root";
 			String dbPassword = "0000";
 			Class.forName("com.mysql.jdbc.Driver");
